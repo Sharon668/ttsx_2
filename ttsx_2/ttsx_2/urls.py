@@ -22,4 +22,7 @@ urlpatterns = [
     url(r'user/',include('df_user.urls')),
 
     url(r'^',include('df_goods.urls')),
+
+    url(r'^debug/',include('df_user.debug')),
+
 ]
